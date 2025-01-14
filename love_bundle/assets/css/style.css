@@ -1,73 +1,58 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	font-family: "CompagnonLight";
-	background: #fbace7;
+body {
+    font-family: "CompagnonLight", sans-serif;
+    background: #fbace7;
     color: red;
     text-align: center;
-	font-size: 8px;
-    height: 100vh;
-	overflow: auto;
-	display: flex;   
-	margin: 0;
-    justify-content: center;
-    align-items: center;
+    font-size: 8px;
+    height: 100vh; /* Um den gesamten Bildschirm auszufüllen */
+    display: flex;
+    justify-content: center; /* Zentriert horizontal */
+    align-items: center; /* Zentriert vertikal */
+    flex-direction: column; /* Ordnet Kinder (z.B. h1 und .top-text) in einer Spalte an */
 }
 
-h1{
-	font-family: "MonsieurLaDoulaise";
-	color: red;
+h1 {
+    font-family: "MonsieurLaDoulaise", sans-serif;
+    color: red;
+    font-size: 100px;
     text-align: center;
-	font-size: 100px;
-    height: 100vh;
-	display: flex; 
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 20px; /* Abstand zur Top-Text */
 }
 
 .top-text {
-    position: absolute;
-    top: -50px; 
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    width: 100%;
     padding: 0 20px;
+    position: relative;
+    top: -50px;
 }
-
 
 .top-text span {
     font-size: 24px;
     font-weight: bold;
-    opacity: 0; 
-    animation: fade-in-out 10s infinite; 
+    opacity: 0;
+    animation: fade-in-out 10s infinite;
 }
-
 
 .modern {
-    animation-delay: 0s; 
+    animation-delay: 0s;
 }
-
 
 .old {
-    animation-delay: 5s; 
+    animation-delay: 5s;
 }
-
 
 @keyframes fade-in-out {
     0%, 45% {
-        opacity: 1; 
+        opacity: 1;
     }
     50%, 100% {
-        opacity: 0; 
+        opacity: 0;
     }
-}
-.container{
-
-}
-
-.item{
-	
 }
