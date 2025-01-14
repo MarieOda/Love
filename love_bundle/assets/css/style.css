@@ -4,10 +4,9 @@
 }
 
 body{
-	font-family: "Pencerio-Hairline";
+	font-family: "MonsieurLaDoulaise";
 	background: #fbace7;
     color: red;
-    display: block;
     text-align: center;
 	font-size: 8px;
     height: 100vh;
@@ -19,11 +18,10 @@ body{
 }
 
 h1{
-	font-family: "Pencerio-Hairline";
+	font-family: "MonsieurLaDoulaise";
 	color: red;
-    display: block;
     text-align: center;
-	font-size: 50px;
+	font-size: 100px;
     height: 100vh;
 	display: flex; 
     justify-content: center;
