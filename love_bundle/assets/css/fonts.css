@@ -5,3 +5,10 @@
   font-weight:200;
   font-style:normal;
 }
+@font-face {
+  font-family: Pencerio-Hairline;
+  src:url(../fonts/Pencerio-Hairline.woff) format("woff"),
+      url(../fonts/Pencerio-Hairline.woff2) format("woff2");
+  font-weight:100;
+  font-style:normal;
+}
