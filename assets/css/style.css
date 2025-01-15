@@ -9,11 +9,11 @@ body {
     color: red;
     text-align: center;
     font-size: 8px;
-    height: 100vh; /* Um den gesamten Bildschirm auszufüllen */
+    height: 100vh; 
     display: flex;
-    justify-content: center; /* Zentriert horizontal */
-    align-items: center; /* Zentriert vertikal */
-    flex-direction: column; /* Ordnet Kinder (z.B. h1 und .top-text) in einer Spalte an */
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
     color: red;
     font-size: 100px;
     text-align: center;
-    margin-bottom: 20px; /* Abstand zur Top-Text */
+    margin-bottom: 20px; 
 }
 
 .top-text {
