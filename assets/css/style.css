@@ -94,14 +94,5 @@ h1 {
             0 0 100px #ff00ff;
             }
     }
+    
 
-.cursor {
-  position: fixed; /* Der Cursor bleibt immer an einer festen Position */
-  width: 20px;    /* Größe des Kreises */
-  height: 20px;   /* Größe des Kreises */
-  background-color: pink; /* Farbe des Kreises */
-  border-radius: 50%;     /* Macht den Kreis rund */
-  pointer-events: none;   /* Verhindert, dass der Cursor mit anderen Elementen interagiert */
-  transform: translate(-50%, -50%); /* Zentriert den Kreis auf der Mausposition */
-  transition: all 0.1s ease; /* Sanfte Übergänge */
-}
