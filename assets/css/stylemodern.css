@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -33,6 +34,21 @@ h1 {
     position: absolute;
     top: 20px;
     font-size: 30px;
+}
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px; /* Abstand zwischen den Bildern */
+  padding: 16px;
+  width: 90%;
+  max-width: 1200px;
+}
+    
+.one {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
