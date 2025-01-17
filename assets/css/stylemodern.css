@@ -37,18 +37,33 @@ h1 {
 }
 .image-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 16px; /* Abstand zwischen den Bildern */
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  gap: 40px; 
   padding: 16px;
   width: 90%;
   max-width: 1200px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
-    
+                
 .one {
-  width: 100%;
+  grid-column-start: 1;
+  margin-top: 10px;
+  width: 30%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.two {
+  grid-column-start: 2;
+  margin-top: 10px;
+  width: 30%;
+  height: auto;
+}
+.three {
+  grid-column-start: 3;
+  margin-top: 10px;
+  width: 30%;
+  height: auto;
 }
 
 
