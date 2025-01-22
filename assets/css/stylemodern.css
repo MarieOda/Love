@@ -34,52 +34,53 @@ h1 {
     position: absolute;
     top: 20px;
     font-size: 30px;
+    }
+
+.top-text a {
+      color: red;
+      text-decoration: none;
 }
+
+
 .image-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr); 
   gap: 20px;
   width: 90%;
-  max-width: 1200px;
   margin-top: 50px;
 }
                 
-.image-container .one {
+.one {
   grid-column: 1; 
-  display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.image-container .two {
+.two {
   grid-column: 2; 
-  display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.image-container .three {
+.three {
   grid-column: 3; 
-  display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.image-container .four {
+.four {
   grid-column: 4; 
-  display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.image-container .five {
+.five {
   grid-column: 5; 
-  display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.image-container img {
+ img {
   width: 100%; 
   height: auto; 
 }
