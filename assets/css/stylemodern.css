@@ -69,8 +69,8 @@ h1 {
 
 .image-container img:hover {
     transform: scale(1.5); 
-    z-index: 100; 
-    position: relative;
+    z-index: 10; 
+    transition: transform 0.3s ease;
    }
  
                 

@@ -52,6 +52,7 @@ h1 {
     margin: 0 auto; 
     padding-top: 200px;
     position: relative;
+    overflow: visible;
 }
 
 
@@ -63,13 +64,25 @@ h1 {
     object-fit: cover;
      ransition: transform 0.3s ease, z-index 0.3s ease; 
     cursor: pointer;
+    max-width: 100%; 
+    position: relative;
 }
+
 
 .image-container img:hover {
     transform: scale(1.5); 
     z-index: 10; 
-   }
-                
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform-origin: center center; 
+}
+
+.image-container img:hover {
+    transform-origin: center center; 
+}     
+
 
 
 
