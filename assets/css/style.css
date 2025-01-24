@@ -29,6 +29,11 @@ h1 {
         0 0 40px #ff00ff, /* Weiterer Schatten */
         0 0 50px #ff00ff; /* Noch weiter draußen */
     animation: glow 3s infinite;
+    } 
+
+h1 a{
+     color: red;
+      text-decoration: none;
 }
 
 .top-text {
